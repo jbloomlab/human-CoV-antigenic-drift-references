@@ -402,3 +402,6 @@ unit](https://www.sciencedirect.com/science/article/pii/S1386653219302367):
 - [Kissler2020, Projecting the transmission dynamics of SARS-CoV-2 through the postpandemic period](https://science.sciencemag.org/content/early/2020/05/11/science.abb5793):
   Primarily models possible scenarios for SARS-CoV-2, but contains some analysis of R as a function of season and cross immunity for OC43 and HKU1.
 
+- [Kellam2020, The dynamics of humoral immune responses following SARS-CoV-2 infection and the potential for reinfection](https://www.microbiologyresearch.org/content/journal/jgv/10.1099/jgv.0.001439):
+  Nice review about antibodies, immune durability, and re-infection with CoV, both SARS-CoV / MERS-CoV, human endemic, and SARS-CoV-2.
+  Reviews evidence that antibodies might wane over time, disease severity affects antibody titers (more disease = higher titers), re-infection with seasonal CoV, and cross-immunity of HKU1 / OC43 and 229E / NL63, but not between those beta- and alpha- groups.
