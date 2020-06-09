@@ -18,6 +18,11 @@
   Look at neutralization of various 229E Spikes, using both live virus and VSV pseudotypes.
   Makes the VSV pseudotypes as in Kawase2009, producing in 293T/17 cells and infecting into HeLa cells.
 
+- [Desforges2013, The Acetyl-Esterase Activity of the Hemagglutinin-Esterase Protein of Human Coronavirus OC43 Strongly Enhances the Production of Infectious Virus](https://jvi.asm.org/content/87/6/3097.short):
+  Most of paper is about authentic OC43, showing that if the virus lacks a functional HE you don't get good titers unless cells express HE protein.
+  In the second-to-last paragraph, there is a note citing unpublished data that this is also true for lentiviral pseudotypes.
+  Of note, they appear to suggest that antibodies against HE can at least somewhat neutralize OC43, which could be a confounder in serological studies designed to focus on Spike.
+
 - [Bertram2013, TMPRSS2 Activates the Human Coronavirus 229E for Cathepsin-Independent Host Cell Entry and Is Expressed in Viral Target Cells in the Respiratory Epithelium](https://jvi.asm.org/content/jvi/87/11/6150):
   Looks at proteases for 229E activation.
   Uses a fusion assay of 293T transfected with APN mixed with those transfected with 229E.

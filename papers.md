@@ -280,6 +280,10 @@ Natural Recombination](https://jvi.asm.org/content/jvi/85/21/11325.full.pdf):
   None of the trees look ladderlike, although is the OC43 affected by mis-annotated ATCC sequences?
   Also appears to suggest recombination in Spike for some of the OC43.
 
+- [Bakkers2017, Betacoronavirus Adaptation to Humans Involved Progressive Loss of Hemagglutinin-Esterase Lectin Activity](https://www.sciencedirect.com/science/article/pii/S1931312817300707):
+  Shows OC43 has lost HE binding activity, and suggests that HKU1 has done the same.
+  Importantly, this does not appear to be artifact of ATCC lab adapated OC43, but all OC43: indeed, current circulating ones have even less HE binding than ATCC lab adapted.
+
 - [Oong2017, Identification and evolutionary dynamics of two novel human coronavirus OC43 genotypes associated with acute respiratory infections: phylogenetic, spatiotemporal and transmission network analyses](https://www.tandfonline.com/doi/full/10.1038/emi.2016.132):
   Sequenced more OC43 viruses in Malaysia.
   These are full-length versions of those in AlKhannaq2016.
@@ -354,9 +358,7 @@ Natural Recombination](https://jvi.asm.org/content/jvi/85/21/11325.full.pdf):
 - [Maurier2019](https://www.sciencedirect.com/science/article/pii/S0042682219300728):
   Describes protocol to sequence full genome of OC43 by making tiled PCR amplicons, and sequence 11 isolates.
 
-- [Hulswit2019, Human coronaviruses OC43 and HKU1 bind to 9-O-
-acetylated sialic acids via a conserved receptor-binding
-site in spike protein domain A](https://www.pnas.org/content/116/7/2681):
+- [Hulswit2019, Human coronaviruses OC43 and HKU1 bind to 9-O-acetylated sialic acids via a conserved receptor-binding site in spike protein domain A](https://www.pnas.org/content/116/7/2681):
   Use crystallography and biochemical assays to show that OC43 and HKU1 both bind to sialic acid receptor using the same site (they call it "site B") on S1 domain A, which apparently is a different part of domain A than some other papers had argued.
 
 - [Li2019, The human coronavirus HCoV-229E S-protein structure and receptor binding](https://elifesciences.org/articles/51230):
@@ -405,3 +407,17 @@ unit](https://www.sciencedirect.com/science/article/pii/S1386653219302367):
 - [Kellam2020, The dynamics of humoral immune responses following SARS-CoV-2 infection and the potential for reinfection](https://www.microbiologyresearch.org/content/journal/jgv/10.1099/jgv.0.001439):
   Nice review about antibodies, immune durability, and re-infection with CoV, both SARS-CoV / MERS-CoV, human endemic, and SARS-CoV-2.
   Reviews evidence that antibodies might wane over time, disease severity affects antibody titers (more disease = higher titers), re-infection with seasonal CoV, and cross-immunity of HKU1 / OC43 and 229E / NL63, but not between those beta- and alpha- groups.
+
+- [Edridge2020, Human coronavirus reinfection dynamics: lessons for SARS-CoV-2](https://www.medrxiv.org/content/10.1101/2020.05.11.20086439v1):
+  Uses titer rises to look for infections over many years in a cohort with seasonal coronaviruses.
+  There are lots of reinfections, with median time to reinfection ranging from 30 to 48 months for the different coronaviruses.
+  There does not appear to be any correlation between alpha- and beta-coronavirus infections.
+  The infections happen less in summer, more in winter.
+  They report some infected individuals have antibodies that react with SARS-CoV-2 N.
+
+- [Lang2020, Coronavirus hemagglutinin-esterase and spike proteins co-evolve for functional balance and optimal virion avidity](https://www.biorxiv.org/content/10.1101/2020.04.03.003699v1.full):
+  Basically, they are looking at the bovine coronavirus predecessor of OC43, which has a HE protein in addition to Spike. The HE can bind but appears to primarily cleave receptor, sort of like flu NA. The receptor is some sort of sialic-acid like thing. When they knock out the HE binding ability (which presumably reduces its overall cleavage by making it less avid for its substrates), they get compensatory mutations in Spike that reduce its binding. The use this to argue for a balance between cleaving and binding similar to HA.
+  They also have some results about how their lab passaging appears to generate “cooperating” swarms of high / low binding viruses that seem reminiscent of @anabundance’s cooperating flu viruses, and they cite that paper, although it’s hard for me to tell without digging a lot more into their data how robust the conclusion of cooperation actually is.
+  I also cannot quite tell if this is relevant to OC43 itself or just the lab-adapted OC43 ATCC type strain. They have some discussion about how the ATCC strain is lab adapted, but never elaborate on how this relates to circulating viruses.
+  Another thing that might be of relevance to @13reguia @Laurel K for OC43 pseudotyping is that they show that for the bovine coronavirus you have to have active HE protein (either on virion or soluble) to mediate good infection, similar to how you need NA to release HA-expressing virions. So maybe this will be a consideration for producing OC43 Spike pseudotyped lentiviruses. Because I can’t tell if the RDE we use for flu would also cut the 9-O-Ac-Sias that OC43 binds (help @Karen!), I’m not sure if this is relevant to us?
+  Finally, they seem to keep referring to the HE cleavage activity as important for promoting infection by allowing release of incoming virions from “unproductive” receptors so they can bind productive ones. I’m not sure why they don’t also think it could simply affect virion release as people usually envision for flu NA.
